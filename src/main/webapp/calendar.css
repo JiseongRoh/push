@@ -1,0 +1,184 @@
+table {
+	padding: 7px;
+    border-top-color: #FFEB46;
+    border-bottom-color: #FFEB46;
+    border-left-color: #FFEB46;
+    border-right-color: #FFEB46;
+    border-style: dotted; /* 각각 설정시 '상 우 하 좌' 순서*/
+    border-width: 10px;
+    margin: auto 100;
+}
+
+tr {
+	height: 70px;
+	border-width: 0px;
+}
+
+th {
+	border-width: 0px;
+}
+
+th#title {
+	font-size: 30pt;
+	font-family: D2Coding; 
+	font-weight: bold;
+	color: #228B22;
+	background-image: url("./hd1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+body {
+	background-image: url("./bg3.png");
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+ 	background-size: 900px 730px;
+}
+
+td {
+	border: 1px solid #CBFF75;
+	border-radius: 10px 30px;
+	font-family: D2Coding;
+	font-weight: bold;
+	width: 100px;	
+}
+
+td#sunday {
+	font-size: 20pt;
+	background-color: #EB0000;
+	color: white;
+	text-align: center;
+}
+
+td.etcday {
+	font-size: 20pt;
+	background-color: #50C785;
+	color:white;
+	text-align: center;
+}
+
+td#saturday {
+	font-size: 20pt;
+	background-color: #2828CD;
+	color: white;
+	text-align: center;
+}
+
+td.sun {
+	font-size: 15pt;
+	color: #FF1493;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.etc {
+	font-size: 15pt;
+	color: black;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.sat {
+	font-size: 15pt;
+	color: blue;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.beforesun {
+	font-size: 10px;
+	color: #FF1493;
+	text-align: right;
+	vertical-align: top;
+	background-color: lavender;
+}
+
+td.before {
+	font-size: 10px;
+	color: black;
+	text-align: right;
+	vertical-align: top;
+	background-color: lavender;
+}
+
+td.aftersat {
+	font-size: 10px;
+	color: blue;
+	text-align: right;
+	vertical-align: top;
+	background-color: #dcdcdc;
+}
+
+td.after {
+	font-size: 10px;
+	color: black;
+	text-align: right;
+	vertical-align: top;
+	background-color: #dcdcdc;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lime;
+	text-decoration: underline;
+}
+
+a:active {
+	color: tomato;
+	text-decoration: none;
+}
+
+.button {
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: 0px;
+	
+	margin-bottom: 0px;
+	background-color: #006400;
+    
+/* 그림자 */
+	border-radius: 5px;
+ 	box-shadow:.8rem .5rem 1.4rem  #5EC75E, -.3rem -.4rem .8rem #FBFBFB; 
+/*  box-shadow:-.2rem -.2rem 1.8rem white, .8rem .8rem 1.4rem  #AAB7CB; */
+
+	color: white;
+	font-size: 10pt;
+	font-weight: bold;
+
+	animation-name: key_ani;
+	animation-duration: .2s;
+
+}
+
+/*버튼 눌렀을때 active*/
+.button:active {
+    box-shadow: inset -.3rem -.1rem 1.4rem  #E6FFE6, inset .3rem .4rem .8rem #C1FF6B; 
+    cursor: pointer;
+}
+
+.select {
+	width: 100px;
+	height: 30px;
+}
+
+td.holiday {
+	font-size: 15pt;
+	color: #FF1493;
+	text-align: right;
+	vertical-align: top;
+	background-color: #FFC3FA;
+}
+
+span {
+	font-size: 9pt;
+}
